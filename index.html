@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#E94953">
+    <meta name="description" content="PWA portfolio">
+    <title>PratikRathod</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="/img/pratik.png">
+
+    <!-- <script>
+        if ('serviceWorker' in navigator){
+            navigator.serviceWorker.register('sw.js')
+        }
+    </script> -->
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader" id="loads">
+            <div class="block1"></div>
+            <div class="block2"></div>
+            <div class="block3"></div>
+            <div class="block4"></div>
+          </div>
+    </div>
+    <!-- Icons
+    <i class="fas fa-home"></i>
+    <i class="fas fa-paper-plane"></i>
+    <i class="fas fa-user"></i>
+    <i class="fas fa-briefcase"></i>
+    <i class="fas fa-bars"></i> 
+    -->
+
+    <div class="aside" id="aside">
+        <div class="logo"><h1 class="logo">Pratik</h1></div>
+
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="#about"><i class="fas fa-user"></i><span>About</span></a></li>
+            <li><a href="#portfolio"><i class="fas fa-briefcase"></i><span>Portfolio</span></a></li>
+            <li><a href="#contact"><i class="fas fa-paper-plane"></i><span>Contact</span></a></li>
+        </ul>
+        <p>&copy; 2021 PratikRathod</p>
+    </div>
+<!-- Main -->
+    <div class="main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="img">
+                <div class="temp"></div></div>
+                <h1>Pratik Rathod</h1>
+                <h2>I'm a Web Developer</h2>
+                <div class="social">
+                    <div><i class="fab fa-instagram"></i></div>
+                    <div><i class="fab fa-facebook"></i></div>
+                    <div><i class="fab fa-linkedin"></i></div>
+                    <div><i class="fab fa-google-plus-g"></i></div>
+                </div>
+        </section>
+        <!-- About -->
+        <section class="about" id="about">
+            <h1 id="head">About Me</h1><br>
+            <h3 id="intro">I'm Pratik Rathod <span>web developer</span></h3>
+            <p id="para">Hi my name is Pratik Rathod. I am a web developer and I am very passionate about my work. I like to try and learn new skills that can help me in my career. </p>
+        <section id="bio">
+            <div>
+                <p><b>Birthday :</b> 7 January 2002</p><hr>
+                <p><b>Age :</b> 20</p><hr>
+                <p><b>Email :</b> pratik712002rathod@gmail.com</p><hr>
+            </div>
+            <div>
+                <p><b>Field :</b>Computer Science Engineering</p><hr>
+                <p><b>Contact :</b> +91-8421126150</p><hr>
+                <p><b>City :</b> Aurangabad, Maharashtra, India</p><hr>
+            </div>
+        </section>
+        <section id="skill">
+            <h1>My skills</h1>
+            <p> HTML <div class="max-progress">
+                <div class="progress" style="width: 90%;"></div>
+            </div></p>
+            <p>CSS<div class="max-progress">
+                <div class="progress" style="width: 85%;"></div>
+            </div></p>
+            <p>Javascript<div class="max-progress">
+                <div class="progress" style="width: 60%;"></div>
+            </div></p>
+            <p>Bootstrap<div class="max-progress">
+                <div class="progress" style="width: 50%;"></div>
+            </div></p>
+            <p>Python<div class="max-progress">
+                <div class="progress" style="width: 80%;"></div>
+            </div></p>
+        </section>
+        <section id="edu">
+            <h1>Education</h1>
+            <p><b>Bachelor of Technology (B.Tech) in Computer Science and Engineering</b> <br>P. E. S. College of Engineering <br>2019-2023 </p>
+        </section>
+        <section id="train">
+            <h1>Trainings</h1>
+            <p><b>Amazon Web Services</b><br>Zero One Data Lab Pvt. Ltd. <br>May 2021-May 2021</p>
+            <p><b>Linux Administration</b><br>Zero One Data Lab Pvt. Ltd. <br>Nov 2020-Dec 2020</p>
+            <p><b>Wordpress</b><br>Zero One Data Lab Pvt. Ltd. <br>Dec 2019-Jan 2020</p>
+        </section>
+        </section>
+        <!-- Portfolio -->
+        <section class="portfolio" id="portfolio">
+            <h1>My Portfolio</h1>
+            <h2>My Work</h2>
+            <div class="work">
+                <a href="img/work1.png" data-title="Template 1" data-lightbox="work"><img src="img/work1.png" alt=""></a>
+                <a href="img/work2.png" data-title="Template 2" data-lightbox="work"><img src="img/work2.png" alt=""></a>
+                <a href="img/work3.png" data-title="Template 3" data-lightbox="work"><img src="img/work3.png" alt=""></a>
+                <a href="img/work4.png" data-title="Template 4" data-lightbox="work"><img src="img/work4.png" alt=""></a>
+
+
+            </div>
+            <h2>My Achivements</h2>
+            <div class="achive">
+                <a href="img/c1.png" data-title="Specialization in Django" data-lightbox="achive"><img src="img/c1.png" alt=""></a>
+                <a href="img/c2.png" data-title="Crash Course on Python" data-lightbox="achive"><img src="img/c2.png" alt=""></a>
+                <a href="img/c3.png" data-title="CSS3" data-lightbox="achive"><img src="img/c3.png" alt=""></a>
+                <a href="img/c4.png" data-title="Javascrip, jQuerry, JSON in Django" data-lightbox="achive"><img src="img/c4.png" alt=""></a>
+                <a href="img/c5.png" data-title="Web Applications and Technologies" data-lightbox="achive"><img src="img/c5.png" alt=""></a>
+
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <h1>Contact Me</h1>
+            <div>
+                <p><b>Name</b><br> Pratik Rathod</p>
+                <p><b>Email</b><br> pratik712002rathod@gmail.com</p>
+                <p><b>Contact</b><br> +91-8421126150</p>
+            </div>
+            <form>
+                <input type="email" id="email" placeholder="Your email">
+                <input type="text" id="name" placeholder="Your name"><br>
+                <textarea name="Hello" placeholder="Your message" id="" cols="30" rows="5"></textarea><br>
+                <input type="submit" id="send" value="Send">
+                
+                
+            </form>
+        </section>
+    </div>
+    
+    <script>
+
+        window.addEventListener('load',function(){
+            const load=document.querySelector('.preloader');
+            load.className+=" hidden"
+        })
+    </script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
